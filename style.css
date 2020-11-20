@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    height: 600px;
+    width: 400px;
+    /* background-color: black; */
+}
+
+.text-area {
+    background-color: black;
+    color: white;
+    height: 15%;
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    padding: 8px;
+
+}
+
+.button-area {
+    background-color: black;
+    height: 85%; 
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+
+}
+
+
+button {
+    height: 20;
+    width: 25%;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* border: black solid 1px; */
+    
+}
+
+.clear-button {
+    width: 50%;
+}
+
+.backspace-button {
+    width: 25%;
+}
+
+.zero {
+    width: 75%;
+}
+
+.equals {
+    width: 25%;
+}
+
+.operation {
+    background-color: #df974c;
+}
